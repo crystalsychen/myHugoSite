@@ -15,7 +15,7 @@ theme = 'PaperMod'
 Title = "Hi! I'm Crystal Chen"
 Content = """{{< rawhtml >}}
 <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
-  <img src="/images/headshot.png" alt="Crystal Chen"
+  <img src="/myHugoSite/images/headshot.png" alt="Crystal Chen"
        style="width:150px; border-radius:50%; flex-shrink: 0;" />
   <div style="max-width: 600px;">
     <p style="margin-top: 1rem;">
@@ -32,7 +32,7 @@ Content = """{{< rawhtml >}}
 <div style="margin-top: 1rem;">
     <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
     <h3>Résumé</h3> 
-    <a href="/files/resume.pdf" target="_blank" style="font-weight: bold; color: #007bff;">(Open as PDF)</a>
+    <a href="/myHugoSite/files/resume.pdf" target="_blank" style="font-weight: bold; color: #007bff;">(Open as PDF)</a>
     </div>
 
   <h4>EDUCATION</h4>
