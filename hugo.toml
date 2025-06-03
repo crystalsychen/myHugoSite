@@ -1,0 +1,95 @@
+baseURL = 'https://crystalsychen.github.io/myHugoSite/'
+languageCode = 'en-us'
+title = 'Crystal Chen'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = "auto"
+  showReadingTime = true
+  showShareButtons = true
+  showCodeCopyButtons = true
+  enableInlineShortcodes = true
+  disableHomepagePosts = true
+  
+ [params.homeInfoParams]
+Title = "Hi! I'm Crystal Chen"
+Content = """{{< rawhtml >}}
+<div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
+  <img src="/images/headshot.png" alt="Crystal Chen"
+       style="width:150px; border-radius:50%; flex-shrink: 0;" />
+  <div style="max-width: 600px;">
+    <p style="margin-top: 1rem;">
+      📧 <strong>Email:</strong> <a href="mailto:chensycrystal@gmail.com">chensycrystal@gmail.com</a><br>
+      💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/crystalsychen/" target="_blank">linkedin.com/in/crystalsychen</a>
+    </p>
+  </div>
+    <p>
+      I am a current student at Northwestern University studying Computer Science and BIP.
+      I am eager to pursue a career where I discover different intersections within tech and find my niche.
+    </p>
+</div>
+
+<div style="margin-top: 1rem;">
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+    <h3>Résumé</h3> 
+    <a href="/files/resume.pdf" target="_blank" style="font-weight: bold; color: #007bff;">(Open as PDF)</a>
+    </div>
+
+  <h4>EDUCATION</h4>
+  <p><strong>Northwestern University</strong> – Evanston, IL <em>Expected Graduation June 2027</em><br>
+  Bachelor of Science in Computer Science & Business Institutions Minor | GPA: 3.8<br>
+  Relevant coursework: Data Structures and Algorithms, Python, C/C++, HCI, Discrete Math</p>
+
+  <h4>EXPERIENCE</h4>
+  <p><strong>United Airlines</strong> – Chicago, IL <em>Incoming Summer 2025</em><br>Digital Technology Intern</p>
+
+  <p><strong>Crawford, Murphy & Tilly</strong> – Springfield, IL<br>
+  <em>Information Technology Intern (Jun–Sep 2024)</em><br>
+  • Improved Sentinel KQL query efficiency by 20%<br>
+  • Designed Helpdesk request form for marketing<br>
+  • Built web app for floor plans using Esri ArcGIS, SQL Server, Figma, and Esri API<br></p>
+
+  <p><em>Information Technology Intern (Jun–Sep 2023)</em><br>
+  • Power BI dashboards for forecasting and cybersecurity<br>
+  • Migrated DVD archives to cloud<br>
+  • Edited Sentinel queries for improved alerts</p>
+
+  <p><strong>Airbnb Homes</strong> – Springfield, IL <br>
+  <em>Account Manager (2016–Present)</em><br>
+  • Managed 9 listings, check-ins, and team scheduling</p>
+
+  <h4>PROJECTS</h4>
+  <p><strong>CrowdScope</strong> | React (Feb–May 2024)<br>
+  • Crowdsourcing app for real-time crowdedness on campus</p>
+
+  <p><strong>Open Street Map Navigator</strong> | C++, TinyXML (Apr–May 2024)<br>
+  • Built Evanston navigator using node data + CTA API</p>
+
+  <p><strong>Python Execution Environment</strong> | C (Mar–Apr 2024)<br>
+  • Recursive-descent parser + memory management for Python subset</p>
+
+  <p><strong>Magnetic Adaptable Sandwich Board (MASB)</strong> (Sep–Dec 2023)<br>
+  • Engineered adjustable board for stroke patient’s mobility</p>
+
+  <p><strong>ShowerSweep</strong> (Mar–Jun 2024)<br>
+  • Designed hair-removal product for communal showers from 2,000 surveys</p>
+
+  <h4>SKILLS & INTERESTS</h4>
+  <p>
+  <strong>Languages:</strong> Python, C, C++, SQL, MATLAB, Racket, DSSL2, KQL, Java, React<br>
+  <strong>Tools:</strong> SQL Server, Power BI, Sentinel, Esri ArcGIS, Figma, VS Code<br>
+  <strong>Interests:</strong> Scrapbooking, Tennis, Mandarin (Fluent), Cooking, Skincare, Photography, Video Editing, Sketching
+  </p>
+</div>
+{{< /rawhtml >}}"""
+
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
